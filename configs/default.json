@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "device": "cuda_if_available",
+  "seq_len": 32,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_local": 1,
+  "rounds": 50,
+  "clients": 10,
+  "participation": 0.6,
+  "alpha": 0.3,
+  "d_model": 128,
+  "n_heads": 4,
+  "n_layers": 2,
+  "ff_dim": 256,
+  "dropout": 0.1
+}
